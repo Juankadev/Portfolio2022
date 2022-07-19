@@ -1291,3 +1291,42 @@ input[type="text"] {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+section.conocimientos img {
+    width: 150px;
+    transition: 800ms;
+    margin: 10px 10px;
+}
+
+
+section.conocimientos {
+    text-align: center;
+    margin-bottom:4rem;
+}
+
+section.conocimientos img:hover {
+  transform:rotate(360deg) scale(0.8);
+  /* border:1px solid #fff; */
+  /* border-radius: 100%; */
+}
+
+@media screen and (max-width: 480px){
+section.conocimientos img {
+    width: 100px;
+}
+}
+
+
+#fh5co-features .services-padding {
+  padding: 2em 0px;
+}
+
+.fh5co-heading {
+  margin-bottom: 2em;
+}
+
+
+.work{
+  border-radius:3px;
+  box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+}
